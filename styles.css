@@ -1,7 +1,3 @@
-html,
-body {
-  height: 100%;
-}
 
 body {
   display: flex;
@@ -9,6 +5,7 @@ body {
   align-items: center;
   background-color: #ededed;
   line-height: 1.3;
+  padding: 30px;
 }
 
 .profile-card {
@@ -120,4 +117,41 @@ h2 {
 .ctv-button:hover {
   cursor: pointer;
   background-color: #8c0589;
+}
+
+@media (max-width:768px){
+  .profile-card{
+    flex-direction: column;
+    max-width: 500px;
+  }
+
+  .sidebar{
+    border-radius: 12px 12px 0 0;
+    padding: 20px;
+  }
+
+  .main{
+    border-radius:0 0 12px 12px;
+    padding: 20px;
+  }
+
+  .profile-image{
+    width: 130px;
+    height: auto;
+    margin: 0;
+  }
+
+  h2{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+  }
+
+  .profession{
+    font-size: 1rem;
+  }
+
+  .education{
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
 }
