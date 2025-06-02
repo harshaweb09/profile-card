@@ -38,11 +38,3 @@ A clean and modern profile card built using **HTML** and **CSS**. This project s
 **Harsha Vardhan Reddy Katari**  
 📧 harsha.web09@gmail.com  
 🌐 [LinkedIn](https://www.linkedin.com/in/harsha-vardhan-reddy-katari/) | [GitHub](https://github.com/harshaweb09)
-
----
-
-## 🚀 Future Improvements
-
-- Add responsiveness for mobile view
-- Improve accessibility (ARIA attributes, keyboard navigation)
-- Add animations or transitions for interaction feedback
